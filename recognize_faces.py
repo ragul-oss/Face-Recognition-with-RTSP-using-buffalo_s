@@ -4,7 +4,7 @@ import numpy as np
 from insightface.app import FaceAnalysis
 
 # ---------------- CONFIG ----------------
-RTSP_URL = "rtsp://admin:Tiandy%40123@192.168.1.103:554/streams1"
+RTSP_URL = "your_url"
 EMB_PATH = "face_db/embeddings.npy"
 LABEL_PATH = "face_db/labels.json"
 THRESHOLD = 0.45
