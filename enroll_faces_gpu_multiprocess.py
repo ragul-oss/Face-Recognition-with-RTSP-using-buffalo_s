@@ -13,7 +13,7 @@ from insightface.app import FaceAnalysis
 from multiprocessing import Process, Queue
 
 # ---------------- CONFIG ----------------
-RTSP_URL = "rtsp://admin:Tiandy%40123@192.168.1.103:554/streams1"
+RTSP_URL = "your_url"
 DB_DIR = "face_db"
 EMB_PATH = os.path.join(DB_DIR, "embeddings.npy")
 LABEL_PATH = os.path.join(DB_DIR, "labels.json")
